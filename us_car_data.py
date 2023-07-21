@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
 # Load the data
-df = pd.read_csv('/Users/jeffchuang/Desktop/us_car_data.csv')
+df = pd.read_csv('/YOUR/FILE/PATH/us_car_data.csv')
 
 # Strip extra spaces from 'Electric Vehicle Type'
 df['Electric Vehicle Type'] = df['Electric Vehicle Type'].str.strip()
